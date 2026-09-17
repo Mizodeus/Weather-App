@@ -1,5 +1,5 @@
 {
-  "name": "todo-list",
+  "name": "weather-app",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -10,14 +10,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Mizodeus/Todo-List.git"
+    "url": "git+https://github.com/Mizodeus/Weather-App.git"
   },
   "keywords": [],
   "type": "module",
   "bugs": {
-    "url": "https://github.com/Mizodeus/Todo-List/issues"
+    "url": "https://github.com/Mizodeus/Weather-App/issues"
   },
-  "homepage": "https://github.com/Mizodeus/Todo-List#readme",
+  "homepage": "https://github.com/Mizodeus/Weather-App#readme",
   "devDependencies": {
     "@eslint/js": "^10.0.1",
     "css-loader": "^7.1.5",
