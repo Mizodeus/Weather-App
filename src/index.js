@@ -31,7 +31,6 @@ async function updateWeather() {
     localStorage.setItem(STORAGE_KEY_GEO, geo);
     localStorage.setItem(STORAGE_KEY_UNIT, unit);
   } catch (error) {
-    console.error("Weather update failed:", error);
     showError(error.message || "Something went wrong. Please try again.");
   }
 }
