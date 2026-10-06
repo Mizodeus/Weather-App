@@ -1,12 +1,23 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-  </head>
-  <body>
-    <button class="unitToggle">°C</button>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Weather App</title>
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <h1>🌤️ Weather</h1>
+      <button class="unitToggle">°C</button>
+    </div>
+    <div class="search-box">
+      <input type="text" class="city-input" placeholder="Enter city name...">
+      <button class="search-btn">🔍</button>
+    </div>
     <div class="content"></div>
-  </body>
+    <div class="loading">Loading weather data...</div>
+    <div class="error"></div>
+  </div>
+</body>
 </html>
